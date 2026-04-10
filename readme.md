@@ -1,5 +1,4 @@
-# Bas-repo för individuella uppgiften.
-# Arduino LED-projekt
+# Bas-repo för individuella uppgiften, Arduino LED-projekt
 
 ## Beskrivning
 
