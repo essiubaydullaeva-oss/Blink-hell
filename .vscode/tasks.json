@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make",
+            "problemMatcher": []
+        },
+        {
+            "label": "simulate",
+            "command": "workbench.action.executeCommand",
+            "args": ["wokwi.start"],
+            "problemMatcher": []
+        },
+        {
+            "label": "build+sim",
+            "dependsOn": ["build", "simulate"],
+            "dependsOrder": "sequence",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
